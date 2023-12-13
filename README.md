@@ -13,7 +13,7 @@ Make sure you have the following software installed on your machine:
 
 ```bash
 git clone https://github.com/pv-kiran/ed-stem.git
-cd your-mern-app
+cd ed-stem
 
 cd client
 npm install
