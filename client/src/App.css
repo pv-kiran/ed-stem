@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  border: 1px gray solid;
+  padding: 1rem;
+}
+
+form button {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: .4rem;
+}
+
+input , select {
+  padding: .3rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+}
+
+table , tr , td {
+  border: 1px gray solid;
+}
+
+td {
+  padding: .5rem 1rem;
+}
+
+table {
+  width: 75%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+.error {
+  position: absolute;
+  top: 1rem;
+}
